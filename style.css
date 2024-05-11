@@ -18,15 +18,18 @@ body {
 }
 
 .apresentacao { 
-    margin: 10%;
+    margin: 8% 18%;
     display: flex; /* Sequencia em linha*/
     align-items: center;/* Centralizando */ 
-    justify-content: space-between; /* Espaço entre conteudoi*/
+    justify-content: space-between; /* Espaço entre conteudo*/
 }
 
 .apresentacao__conteudo {
     width: 615px;
     height: 482px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
@@ -40,19 +43,30 @@ body {
 }
 
 .apresentacao__links {
-    display: flex;
+    display: flex; /* Deixa em linha*/
+    flex-direction: column; /* Deixa em coluna*/
+    align-items: center; /* Centralizar*/
     justify-content: space-between;
+    gap: 32px; /* Criar espaço entre os botão, sem isso fica grudado*/
+    margin-bottom: 15px;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400px; /* Calibre da fonte */
+    font-size: 24px;
 }
 
 .apresentacao__links__link { /* Criando um botao*/
-    background-color: #22D4FD;
-    width: 280px;
+    width: 378px; /* Largura*/
     text-align: center;
-    border-radius: 16px; /* Arredondar a borda*/
+    border: 2px solid #22d4fd; /* Criar uma borda solida */
+    border-radius: 8px; /* Arredondar a borda*/
     font-size: 24px;
     font-weight: 600;
     padding: 21.5px 0 ; /* Primeiro valor é vertical e o segundo é horizontal*/
     text-decoration: none;
-    color: #000000;
+    color: #f6f6f6;
     font-family: "Montserrat Alternates", sans-serif;
 }
+
