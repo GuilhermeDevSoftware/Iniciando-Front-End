@@ -1,0 +1,19 @@
+* {  /* o asteristico se refere a TUDO no html */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh; /* Altura padrão*/
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+.titulo-destaque {
+    color: #22d4fd;
+}
+
+.apresentacao {
+    display: flex;
+}
