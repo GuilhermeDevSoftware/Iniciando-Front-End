@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); /* Montserrat e Krona One */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
 
 * {  /* o asteristico se refere a TUDO no html */
     margin: 0;
@@ -25,7 +26,7 @@ body {
 
 .apresentacao__conteudo {
     width: 615px;
-    /*height: 482px;*/
+    height: 482px;
 }
 
 .apresentacao__conteudo__titulo {
@@ -36,4 +37,22 @@ body {
 .apresentacao__conteudo__texto {
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link { /* Criando um botao*/
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px; /* Arredondar a borda*/
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0 ; /* Primeiro valor é vertical e o segundo é horizontal*/
+    text-decoration: none;
+    color: #000000;
+    font-family: "Montserrat Alternates", sans-serif;
 }
