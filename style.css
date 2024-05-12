@@ -58,6 +58,9 @@ body {
 }
 
 .apresentacao__links__link { /* Criando um botao*/
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     width: 378px; /* Largura*/
     text-align: center;
     border: 2px solid #22d4fd; /* Criar uma borda solida */
@@ -70,3 +73,10 @@ body {
     font-family: "Montserrat Alternates", sans-serif;
 }
 
+.apresentacao__links__link:hover {
+    background-color: #272727;
+}
+
+.destaque__nome:hover {
+    box-shadow: 0 0 10px rgba(86, 188, 228, 0.5);
+}
