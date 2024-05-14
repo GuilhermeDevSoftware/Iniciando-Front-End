@@ -1,8 +1,8 @@
-Portfólio Pessoal.
+# Portfólio Pessoal.
 
 Este é o meu portfólio pessoal, desenvolvido utilizando HTML e CSS. Ele foi projetado para ser acessível tanto em dispositivos desktop quanto em dispositivos móveis, garantindo uma experiência consistente em diferentes tamanhos de tela.
 
-Recursos
+# Recursos
 Responsivo: O layout se adapta dinamicamente ao tamanho da tela, proporcionando uma experiência de usuário otimizada em dispositivos móveis, tablets e desktops.
 HTML Semântico: Utilizei marcação semântica HTML5 para uma estrutura clara e acessível.
 Estilização com CSS: O CSS foi utilizado para estilizar o conteúdo e proporcionar uma aparência visual atraente e coesa.
@@ -11,15 +11,15 @@ Projetos Destacados: Destaquei meus projetos mais relevantes, fornecendo informa
 Visualização
 Você pode visualizar meu portfólio online aqui.
 
-Possui as seguintes acessibilidades: 
+# Acessibilidade: 
 
 Portfólio no desktop
 
 Portfólio em dispositivo móvel
 
-Contribua: 
+# Contribua: 
 
 Sinta-se à vontade para abrir problemas (issues) se encontrar algum bug ou tiver sugestões de melhorias. Pull requests também são bem-vindos!
 
-Autor
+# Autor
 Guilherme Henrique.
